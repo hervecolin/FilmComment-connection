@@ -1,0 +1,309 @@
+h1{                                             /*mon css*/
+	color:#01A9DB;
+	font-family:Equal Sans Demo;
+	font-size: 50px;
+	position:absolute;
+	left:180px;
+}
+h2{
+	color: #01A9DB;             /* title et years notification en css !  */
+	position:absolute;
+	top:80px;
+	left:230px;
+	font-family:Equal Sans Demo; /* case de l'IMIE*/
+	font-size:30px;
+
+}
+h1:hover{
+	color:grey;       /*charte de couleur IMIE !*/
+	font-size:60px;
+}
+h3{
+	color: #01A9DB;
+	font-family:Equal Sans Demo; /* case de l'IMIE*/
+	font-size:40px;
+}
+p{
+	color:#01A9DB;
+	position:absolute;
+	bottom:250px;
+	left:60px;
+	font-family:Equal Sans Demo; /* case de l'IMIE*/
+	font-size:40px;
+
+}
+body{                        /*mon body*/
+	background-color:black;
+
+}
+.log_user{
+	position:absolute;
+	top:110px;
+	left:940px;
+	background-color:#01A9DB;
+	font-family:Equal Sans Demo;
+}
+.main{                /*mon css main*/
+	position:absolute;
+	top:230px;
+	left:50px;
+}
+.active {                        /*active menu !*/
+	text-decoration:none;
+}
+.saisie{
+	background-image:linear-gradient(white,#0040ff);
+	color:white;
+}
+.movies img{               /*select warning poster !*/
+	width:190px;
+	height:150px;
+}
+.poster_2{
+	width:200px;
+	height:440px;
+	position:absolute;
+	top:100px;
+	left:12px;
+}
+.plot{                               /*synopsis*/
+	position:absolute;
+	top:150px;
+	left:260px;
+	font-size:35px;
+	background-color:grey;
+	margin:2px;
+	padding:2px;
+	color:white;
+	width:1100px;
+	font-family:Equal Sans Demo;  /* case de l'IMIE*/
+}
+.cast{
+	position:absolute;                /*actor*/
+	top:225px;
+	left:270px;
+	color:#01A9DB;
+	font-family:Equal Sans Demo;   /* case de l'IMIE*/
+	font-size:30px;
+}
+.rating{            /*score !*/
+	position:absolute;
+	top:250px;
+	left:270px;
+	color:black;                 /*charte IMIE*/
+	font-family:Equal Sans Demo;   /* case de l'IMIE*/
+	font-size:30px;
+}
+.return{
+	background-color: black;   /* charte de couleur IMIE !*/
+	position:absolute;
+	top:30px;
+	right:500px;
+	font-family:Equal Sans Demo;  /* case de l'IMIE*/
+	font-size:25px;
+}
+body a{                          /* Select pour none d'accueil un peu tordu !!*/
+	text-decoration:none;
+}
+.logo{                                      /*logo IMIE*/
+	position:absolute;
+	top:8px;
+	left:20px;
+	height:60px;
+	width:60px,
+}
+.menu{                                     /*css nav minimaliste*/
+	font-size:20px;
+	position:absolute;
+	top:120px;
+	right:320px;
+}
+.twiter{                    /*réseau sociaux et ma music  !*/
+	height:50px;
+	width: 40px;
+	float:right;
+}
+.face{
+	height:50px;
+	width: 40px;
+	float:right;
+}
+.link{
+	height:50px;
+	width: 40px;
+	float:right;
+}
+.deezer{
+	height:50px;
+	width: 80px;
+	float:right;
+}
+.spotify{
+	height:50px;
+	width: 80px;
+	float:right;
+}
+.you{
+	height:50px;
+	width: 80px;
+	float:right;
+}
+.inscription{                   /*css inscription*/
+	position:absolute;
+	top:40px;
+	right:655px;
+	background-color:grey;
+	font-family:Equal Sans Demo;
+	font-size:25px;
+	color:#01A9DB;
+	padding: 5px;
+}
+.deconnection{                    /*mon css decnnection*/
+	position:absolute;
+	top:40px;
+	right:350px;
+	background-color:grey;
+	font-family:Equal Sans Demo;
+	font-size:25px;
+	color:#01A9DB;
+	padding: 5px;
+}
+.formulaire{               /*mon css formulaire*/
+	position:absolute;
+	top:150px;
+	left: 40px;
+	width:550px;
+	height:190px;
+	font-family:Equal Sans Demo;
+	font-size:30px;
+	color:#01A9DB;
+	color:black;
+  background-color:white;
+  background-image:url(cinema.jpg);  /*mon image de fon cool */
+  background-repeat:no-repeat;
+  background-size:100%;
+}
+.pub{                            /*mon css accroche inscription*/
+	position:absolute;
+	top:110px;
+	right:90px;
+	width:700px;
+	height:570px;
+	background-color:grey;
+	font-family:Equal Sans Demo;
+	font-size:30px;
+	color:#01A9DB;
+	text-align:center;
+}
+.valider{                          /*mon css valider*/
+	background-color:#01A9DB;
+}
+.valider:hover{
+
+	font-size:20px;
+	padding: 5px;
+}
+.accueil{                                     /*mon css accueil*/
+	background-color:grey;
+	padding: 5px;
+}
+.wall{                       /*mon css wall*/
+	background-color:grey;
+	padding: 5px;
+}
+.serie{
+	background-color:grey;
+	padding: 5px;                         /*mon css serie*/
+}
+.detail{                   /*mon css idem détail*/
+	background-color:grey;
+	padding: 5px;
+}
+.detail_e{                         /*mon css*/
+	background-color:grey;
+	padding: 5px;
+}
+.forum{                           /*mon css lien forum*/
+	background-color:grey;
+	padding: 5px;
+}
+.my{                                         /*mon css ma page user !*/
+	border: 3px solid black;
+	background-color:white;
+	width:99%;
+	height:1000px;
+	position:absolute;
+	top:150px;
+}
+.sup_ad{                                   /*mon css super admin*/
+	position:absolute;
+	top:40px;
+	right:500px;
+	background-color:grey;
+	font-family:Equal Sans Demo;
+	font-size:25px;
+	color:#01A9DB;
+	padding: 5px;
+
+}
+.admin{                           /*mon css idem*/
+	position:absolute;
+	background-image:url(adm2.jpg);
+  background-repeat:no-repeat;
+  background-size:100%;
+	top:200px;
+	left:50px;
+	border: 3px solid white;
+	width:95%;
+	height:500px;
+	color:white;
+	text-align:center;
+}
+.footer{                          /*mon css footer reel*/
+	position:absolute;
+	bottom:2px;
+	left:600px;
+	color:white;
+
+}
+.actu{                         /*mon css titre actu*/
+	position:absolute;
+	top:280px;
+	left:550px;
+	color:grey;
+}
+.moderateur{
+	background-color:grey;
+	text-align: center;
+}
+.mod{
+	position:absolute;
+	background-image:url(adm.png);
+  background-repeat:no-repeat;
+  width: 1100px;
+  height: 500px;
+}
+textarea{                          /*mon css formulaire textarea pour échange modérateur/admin !*/
+	color: blue;
+}
+.message{
+	color:grey;
+}
+.user_commantaire{                        /* la formulaire du user pour commanter, noter et s'identifier !*/
+	position:fixed;
+	top:500px;
+	left:380px;
+	background-color:#01A9DB;
+	font-family:Equal Sans Demo;
+	font-size:20px;
+	padding: 5px;
+
+}
+.gestion{                                 /*navigateur Admin !*/
+	position:absolute;
+	top:180px;
+	left:50px;
+	color:white;
+	font-family:Equal Sans Demo;
+	font-size:35px;
+}
