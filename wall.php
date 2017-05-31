@@ -8,16 +8,16 @@
       <title>wall</title>
 </head>
 <body>
-<h1> My Wall : FilmComment Connection !</h1>
+<h1> My Wall : FishBlock Connection !</h1>
 <br/>
-    <a href ="https://twitter.com/EcoleIMIE"> <img src = "imgres.png"  class="logo"/></a> <!--forum-->
+    <a href ="https://twitter.com/EcoleIMIE"> <img src = "img/imgres.png"  class="logo"/></a> <!--forum-->
   <div class="reseau">   <!--toujours le réseau social ! connecting people -->
-      <a href="https://twitter.com/login"><img class="twiter" src ="logo_twiter.jpg"/></a>
-  		<a href="https://fr-fr.facebook.com/login/"><img class="face" src ="logo_face.png"/></a>
-  		<a href="https://www.linkedin.com/uas/login"><img class="link" src ="logo_link.png"/></a>
-  		<a href="https://www.deezer.com/fr/"><img class="deezer" src ="logo_deezer.png"/></a>
-  		<a href="https://www.spotify.com/fr/"><img class="spotify" src ="logo_spotify_2.png"/></a>
-  	  <a href="https://www.youtube.com/?hl=fr&gl=FR"><img class="you" src ="you.jpg"/></a>
+      <a href="https://twitter.com/login"><img class="twiter" src ="img/logo_twiter.jpg"/></a>
+  		<a href="https://fr-fr.facebook.com/login/"><img class="face" src ="img/logo_face.png"/></a>
+  		<a href="https://www.linkedin.com/uas/login"><img class="link" src ="img/logo_link.png"/></a>
+  		<a href="https://www.deezer.com/fr/"><img class="deezer" src ="img/logo_deezer.png"/></a>
+  		<a href="https://www.spotify.com/fr/"><img class="spotify" src ="img/logo_spotify_2.png"/></a>
+  	  <a href="https://www.youtube.com/?hl=fr&gl=FR"><img class="you" src ="img/you.jpg"/></a>
   </div>
 <?php
 include("navigateur.php");// include nav
@@ -26,19 +26,15 @@ include("navigateur.php");// include nav
 <br/>
   <div class="my">
   <br/>
-      <img src="photo_5.jpg" /> <!--mes photos -->
-      <img src="photo_6.jpg" />
-      <img src="photo_7.jpg" />
-      <img src="photo_8.jpg" />
-      <img src="photo_9.jpg" />
-      <img src="photo_10.jpg" />
-      <img src="photo_11.jpg" />
-      <img src="photo_16.jpg" />
-      <img src="photo_17.jpg" />
-      <img src="photo_12.jpg" />
-      <img src="photo_13.jpg" />
-      <img src="photo_15	.jpg" />
-      <img src="photo_14.jpg" />
+      <img src="img/photo_5.jpg" /> <!--mes photos -->
+      <img src="img/photo_6.jpg" />
+      <img src="img/photo_7.jpg" />
+      <img src="img/photo_8.jpg" />
+      <img src="img/photo_9.jpg" />
+      <img src="img/photo_10.jpg" />
+      <img src="img/photo_13.jpg" />
+      <img src="img/photo_15	.jpg" />
+      <img src="img/photo_14.jpg" />
   </div>
 </body>
 </html>

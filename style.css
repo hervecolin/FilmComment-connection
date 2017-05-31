@@ -1,12 +1,12 @@
 h1{                                             /*mon css*/
-	color:#01A9DB;
+	color:red;
 	font-family:Equal Sans Demo;
 	font-size: 50px;
 	position:absolute;
 	left:180px;
 }
 h2{
-	color: #01A9DB;             /* title et years notification en css !  */
+	color: red;             /* title et years notification en css !  */
 	position:absolute;
 	top:80px;
 	left:230px;
@@ -14,17 +14,14 @@ h2{
 	font-size:30px;
 
 }
-h1:hover{
-	color:grey;       /*charte de couleur IMIE !*/
-	font-size:60px;
-}
+
 h3{
 	color: #01A9DB;
 	font-family:Equal Sans Demo; /* case de l'IMIE*/
 	font-size:40px;
 }
 p{
-	color:#01A9DB;
+	color:black;
 	position:absolute;
 	bottom:250px;
 	left:60px;
@@ -33,7 +30,7 @@ p{
 
 }
 body{                        /*mon body*/
-	background-color:black;
+	background-color:#01A9DB;
 
 }
 .log_user{
@@ -179,7 +176,7 @@ body a{                          /* Select pour none d'accueil un peu tordu !!*/
 	color:#01A9DB;
 	color:black;
   background-color:white;
-  background-image:url(cinema.jpg);  /*mon image de fon cool */
+  background-color:grey;  /*mon image de fon cool */
   background-repeat:no-repeat;
   background-size:100%;
 }
@@ -292,7 +289,7 @@ textarea{                          /*mon css formulaire textarea pour échange m
 .user_commantaire{                        /* la formulaire du user pour commanter, noter et s'identifier !*/
 	position:fixed;
 	top:500px;
-	left:380px;
+	left:260px;
 	background-color:#01A9DB;
 	font-family:Equal Sans Demo;
 	font-size:20px;
@@ -306,4 +303,25 @@ textarea{                          /*mon css formulaire textarea pour échange m
 	color:white;
 	font-family:Equal Sans Demo;
 	font-size:35px;
+}
+td  {
+  border:2px solid black;
+  width: 500px;
+  font-family: Equal Sans Demo;
+	font-size:20px;
+}
+th{
+	border:2px solid black;
+	font-family: Equal Sans Demo;
+	font-size:30px;
+
+
+}
+table {
+	border-collapse: collapse;
+    border: medium solid black;
+    width: 100%;
+    color:white;
+    text-align:center;
+
 }

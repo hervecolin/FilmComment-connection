@@ -8,16 +8,17 @@
 </head>
 
 <body>
-  <a href ="https://twitter.com/EcoleIMIE"> <img src = "imgres.png"  class="logo"/></a> <!--lien vers forum !!-->
+  <a href="index_film.php" class="return" >Accueil</a>
+  <a href ="https://twitter.com/EcoleIMIE"> <img src = "img/imgres.png"  class="img/logo"/></a> <!--lien vers forum !!-->
+
   <div class="reseau">                  <!-- div réseau sociaux-->
-          <a href="https://twitter.com/login"><img class="twiter" src ="logo_twiter.jpg"/></a>
-  			  <a href="https://fr-fr.facebook.com/login/"><img class="face" src ="logo_face.png"/></a>
-  			  <a href="https://www.linkedin.com/uas/login"><img class="link" src ="logo_link.png"/></a>
-  				<a href="https://www.deezer.com/fr/"><img class="deezer" src ="logo_deezer.png"/></a>
-  				<a href="https://www.spotify.com/fr/"><img class="spotify" src ="logo_spotify_2.png"/></a>
+          <a href="https://twitter.com/login"><img class="twiter" src ="img/logo_twiter.jpg"/></a>
+  			  <a href="https://fr-fr.facebook.com/login/"><img class="face" src ="img/logo_face.png"/></a>
+  			  <a href="https://www.linkedin.com/uas/login"><img class="link" src ="img/logo_link.png"/></a>
+  				<a href="https://www.deezer.com/fr/"><img class="deezer" src ="img/logo_deezer.png"/></a>
+  				<a href="https://www.spotify.com/fr/"><img class="spotify" src ="img/logo_spotify_2.png"/></a>
   </div>
 <main>
-  <h1>Notification de votre série : Fishblock Connection !</h1> <!--mon titre-->
   <?php
  include("movies.php");     // ne pas oublier include de la table "movies.php ma source !" !!
  ?>
@@ -40,11 +41,13 @@
   <div class="user_commantaire" >
     <form  method="POST" action="cible.php">  <!--Envoi du formulaire vers cible.php !-->
        <label>Commanter des séries !</label>
-       <textarea name = "commantaire"/></textarea> <!--le formulaire commantaire -->
+       <textarea name = "commentaire"/></textarea> <!--le formulaire commantaire -->
        <label>Noter une série !</label>
        <input type="text" name = "note" /> <!--le formulaire note -->
-	     <label>Mon pseudo</label>
-	     <input type="text" name = "pseudo" /> <!--pseudo du commantaire-->
+	     <label>Mon speudo</label>
+	     <input type="text" name = "speudo" /> <!--pseudo du commantaire-->
+       <label>Proposer une serie</label>
+       <input type="text" name = "proposer" />
        <input type = "submit" value = "Valider" class="valider"/>
     </form>
   </div>

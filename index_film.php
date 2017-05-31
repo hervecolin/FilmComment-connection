@@ -8,13 +8,13 @@
 </head>
 <body>
   <?php
-   include ("footer.php");   //include footer
+   include ("header.php");   //include footer
    ?>
-  <form class="log_user">
+  <!-- <form class="log_user">
    <input  type="password" name="log_user" placeholder="Mot de passe..."/>
    <input  type="text" name="log_user" placeholder="Identifiant,pseudo..."/>
    <input type="submit" value="ok"/>
-   </form>
+   </form> -->
   <div class="main">
   <div class="actu">
     <p>News </p>   <!--mon titre-->
@@ -55,7 +55,6 @@
      }
      ?>
  </div>
-  </main>
   </div>
     <?php
     include("footer_f.php");             //include footer reel
