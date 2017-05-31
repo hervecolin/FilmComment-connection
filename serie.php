@@ -10,7 +10,7 @@
 </head>
 <body>
   <?php
-   include ("footer.php");   //include footer
+   include ("header.php");   //include footer
    ?>
   <div class="main">     <!-- class main !!-->
   <main>

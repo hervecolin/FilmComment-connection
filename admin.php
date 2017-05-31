@@ -11,7 +11,7 @@
 </head>
 <body>
   <?php
-  include("footer.php"); //include header !!
+  include("header.php"); //include header !!
   ?>
   <br/><!--un peu chavalier ces br++ !-->
   <br/>

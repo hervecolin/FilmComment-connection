@@ -9,7 +9,7 @@
 </head>
 <body>
 </body>
-<footer>      <!--Vrai footer-->
-  &copy; <?=date ("d.m.Y") ?>  - H.COLIN    <!-- syntaxe pour copy right !--><!--  en php voir synt affiche l'année dans html affiche la date d'aujourd'hui !!!('d/m/Y') &copy copyright !-->
+<footer class="footer">      <!--Vrai footer-->
+  &copy; <?=date ("d.m.Y") ?>  - L'équipe DL19 : Amanda, Irwin, Anthony, Marc & Hervé    <!-- syntaxe pour copy right !--><!--  en php voir synt affiche l'année dans html affiche la date d'aujourd'hui !!!('d/m/Y') &copy copyright !-->
 </footer>
 </html>
