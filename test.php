@@ -7,7 +7,8 @@
   <title>test1</title>
 </head>
 <body>
-<?php                          //mon php !
+<?php
+                          //mon php !
 try{
 $user = 'root';
 $pass= '';
@@ -18,7 +19,6 @@ $connect = new PDO ('mysql:host=localhost;dbname=fishblock',$user,$pass);  //new
    $nom = $_POST['nom'];
    $prenom = $_POST['prenom'];
    $adresse = $_POST['adresse'];
-   $telephone = $_POST['telephone'];
    $email = $_POST['email'];
 
 //var_dump($_POST); //I like to see what I push !
@@ -37,16 +37,8 @@ try {
    }
 catch (PDOException $e){                              //mon exception avec rollback
    $connect->rollback();
-  echo "erreur :".$e->getmessage();
+      echo "erreur :".$e->getmessage();
   }
-    if ((isset($_POST['password']) && !empty($_POST['password'])) && (isset($_POST['nom']) && !empty($_POST['nom']))&&(isset($_POST['prenom'])&& !empty($_POST['prenom']))&&(isset($_POST['adresse'])&& !empty($_POST['adresse'])) )
-     {
-    echo'Test de validation formulaire ok le programme continue...'."<br/>";
-      }
-   else{
-    echo '<a href="inscription".php">Vous devez renseigner le formulaire d\'inscription fishblock connection  ! cliquer sur ce lien SVP</a><br/>'; //sinon retour au formulaire !
-      }
-                                       // ma syntaxe pour valider mes nouvelles variables encours !
 
    $tableau = $_POST['password'].$_POST['nom'].$_POST['prenom'].$_POST['adresse'].$_POST['email'];
    $connect->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);   //rappel de new ma DB
@@ -63,29 +55,26 @@ catch (PDOException $e){                              //mon exception avec rollb
     echo "<tr><td>". $r['password']."</td><td>".$r['nom']."</td><td>".$r['prenom']."</td><td>".$r['adresse']."</td><td>".$r['email']
     ."</td></tr>";   //je demande d'afficher nom,prenom,  ville et dtad'inscription ds un tableau
    }
-   echo "</table>";                          //mon echo fin de tableau
+    echo "</table>";
 
-
-   $password = $_POST['password']; //initialisation des variables du formulaire ça c'est clean !
-   $nom = $_POST['nom'];
-   $prenom = $_POST['prenom'];
-   $adresse = $_POST['adresse'];
-   $telephone = $_POST['telephone'];
-   $email = $_POST['email'];
-
-   $_SESSION = $password.$nom.$prenom.$adresse.$telephone.$email; //initialisation de ma session good
-    if (empty($_SESSION)){   // condition si champs non valider
-   $_SESSION =[];
+   if ((isset($_POST['password']) && !empty($_POST['password'])) && (isset($_POST['nom']) && !empty($_POST['nom']))&&(isset($_POST['prenom'])&& !empty($_POST['prenom']))&&(isset($_POST['adresse'])&& !empty($_POST['adresse'])) )
+    {
+      echo'Test de validation formulaire ok le programme continue...'."<br/>";
     }
-     else{
-         echo "Bienvenue ! ".$prenom.' '.$nom.' : '.$adresse." . Vous êtes membre de Fishblock connection !";
-         //condition si valider bienvenue...
-         header("location: wall.php ");  //redirection vers le wall !!
-     }
-        if (empty($_SESSION)){       //si vide on prévient qu'il faut  saisir !
-     //echo  message d'erreur "Veuillez renseigner un nom de produit SVP !" ;
-          echo "<p >Veuillez renseigner les champs d'inscription SVP !</p> ";
-        }
+    else{
+       echo'formulaire invalide : vous devez remplir le formulaire !';
+    }
+
+    if (isset($_POST['password']) AND $_POST['password']=="azteca1")
+
+    {
+       header("location: admin.php ");
+    }
+
+    if (($_POST['password']==1) && (strlen($_POST['password']) >= 7) && $_POST['password'] !=="azteca1" || $_POST['nom'] || $_POST['prenom'] || $_POST['adresse'] || $_POST['email'])
+    {
+       header("location: wall.php ");
+    }
 
 include("footer_f.php");
 ?>

@@ -1,9 +1,9 @@
 h1{                                             /*mon css*/
 	color:red;
 	font-family:Equal Sans Demo;
-	font-size: 50px;
+	font-size: 60px;
 	position:absolute;
-	left:180px;
+	left:300px;
 }
 h2{
 	color: red;             /* title et years notification en css !  */
@@ -12,7 +12,6 @@ h2{
 	left:230px;
 	font-family:Equal Sans Demo; /* case de l'IMIE*/
 	font-size:30px;
-
 }
 
 h3{
@@ -27,8 +26,8 @@ p{
 	left:60px;
 	font-family:Equal Sans Demo; /* case de l'IMIE*/
 	font-size:40px;
-
 }
+
 body{                        /*mon body*/
 	background-color:#01A9DB;
 
@@ -113,7 +112,7 @@ body a{                          /* Select pour none d'accueil un peu tordu !!*/
 	font-size:20px;
 	position:absolute;
 	top:120px;
-	right:320px;
+	right:450px;
 }
 .twiter{                    /*réseau sociaux et ma music  !*/
 	height:50px;
@@ -225,8 +224,7 @@ body a{                          /* Select pour none d'accueil un peu tordu !!*/
 	padding: 5px;
 }
 .my{                                         /*mon css ma page user !*/
-	border: 3px solid black;
-	background-color:white;
+	background-color:silver;
 	width:99%;
 	height:1000px;
 	position:absolute;
@@ -259,14 +257,13 @@ body a{                          /* Select pour none d'accueil un peu tordu !!*/
 .footer{                          /*mon css footer reel*/
 	position:absolute;
 	bottom:2px;
-	left:600px;
+	left:550px;
 	color:white;
-
 }
 .actu{                         /*mon css titre actu*/
 	position:absolute;
 	top:280px;
-	left:550px;
+	left:600px;
 	color:grey;
 }
 .moderateur{
@@ -275,7 +272,7 @@ body a{                          /* Select pour none d'accueil un peu tordu !!*/
 }
 .mod{
 	position:absolute;
-	background-image:url(adm.png);
+	background-image:url(img/adm.png);
   background-repeat:no-repeat;
   width: 1100px;
   height: 500px;

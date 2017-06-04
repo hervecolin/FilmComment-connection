@@ -9,6 +9,7 @@
 <body>
   <?php
    include ("header.php");   //include footer
+
    ?>
   <!-- <form class="log_user">
    <input  type="password" name="log_user" placeholder="Mot de passe..."/>

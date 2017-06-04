@@ -10,9 +10,7 @@
       <title>Administrateur</title>
 </head>
 <body>
-  <?php
-  include("header.php"); //include header !!
-  ?>
+
   <br/><!--un peu chavalier ces br++ !-->
   <br/>
   <br/>
@@ -20,7 +18,7 @@
      <a class ="accueil" href="index_film.php" >Accueil</a><br/> <!--retour accueil -->
      <a class="moderateur"href="moderateur.php" >Modérateur</a><!--check modérateur-->
      <div class="admin" >
-       <h3>Wall Administrateur !</h3>           <!--Titre -->
+       <h1>Wall Administrateur !</h1>           <!--Titre -->
       </div>
   </body>
 <br/>
@@ -28,8 +26,9 @@
   <div class="message">
     <?php
     include("footer_f.php");          // include footer reel!!
-    $message=$_POST['message'];    //affecte ma variable du formulaire et je la lis !
-    echo $message;
+    // $message=$_POST['message'];    //affecte ma variable du formulaire et je la lis !
+    // echo $message;
+    // include("test.php");
     ?>
   </div>
 </html>

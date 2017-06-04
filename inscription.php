@@ -34,8 +34,6 @@ session_start();       //initialisation de ma session
         <label for="email">@</label>
         <input type="text" name="email" class="email"/>
         <br/>
-        <label for="tel">Téléphone</label>
-        <input type="text" name="telephone" class="telephone"/>
        <input type="submit" value ="Valider" class="valider">
      </fieldset>
    </form>
@@ -54,7 +52,7 @@ session_start();       //initialisation de ma session
    </div>
 		<br/>
 <?php
-    include("footer_f.php");             
+    include("footer_f.php");
 ?>
 
 </body>
