@@ -34,3 +34,4 @@ Fonctionnalités :
 ### liaison à une db MySql name = fishblock
 
 ### 2 tables : users( champs : id, password, nom, prenom, adresse, email) & commentaire (id, commentaire, note, speudo, proposer)
+"# FilmConnection" 
