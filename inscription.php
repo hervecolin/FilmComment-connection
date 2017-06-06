@@ -14,6 +14,7 @@ session_start();       //initialisation de ma session
 </head>
 
 <body>
+  <a href ="index_film.php"> <img src = "img/imgres.png"  class="logo"/></a>
   <h1>Fishblock Connection !</h1>
 
 
@@ -52,11 +53,10 @@ session_start();       //initialisation de ma session
    </div>
 		<br/>
 <?php
-<<<<<<< HEAD
+
     include("footer_f.php");
-=======
-    include("footer_f.php");             
->>>>>>> 5961348fe8bdea3501bcbf67dd225dce366fd8f7
+
+    include("footer_f.php");
 ?>
 
 </body>

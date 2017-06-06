@@ -8,11 +8,7 @@
 </head>
 <body>
   <?php
-   include ("header.php");   //include footer
-<<<<<<< HEAD
-
-=======
->>>>>>> 5961348fe8bdea3501bcbf67dd225dce366fd8f7
+   include ("header.php");   //include foo
    ?>
   <!-- <form class="log_user">
    <input  type="password" name="log_user" placeholder="Mot de passe..."/>
@@ -50,7 +46,7 @@
      }
        else  {  //s i une recherche vient d'etre effectueé
      shuffle($movies);//mélange les éléments $movie en aléatoire !!
-     array_splice($movies,24);
+     array_splice($movies,27);
        }            // va donner 24 films au hazard juste pour appater !!
      foreach ($movies as $movie){      // pour afficher tout mes posters au premiers niveau!!!
       echo '<a href="detail_film.php?id='.$movie['id'].'" title="cliquer">';    //attention à la syntaxe de concat pour voir dans l'url id de chaque movie !! // en simple cote mon lien

@@ -1,11 +1,8 @@
 h1{                                             /*mon css*/
 	color:red;
 	font-family:Equal Sans Demo;
-<<<<<<< HEAD
 	font-size: 60px;
-=======
 	font-size: 40px;
->>>>>>> 5961348fe8bdea3501bcbf67dd225dce366fd8f7
 	position:absolute;
 	left:300px;
 }
@@ -16,10 +13,6 @@ h2{
 	left:230px;
 	font-family:Equal Sans Demo; /* case de l'IMIE*/
 	font-size:30px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 5961348fe8bdea3501bcbf67dd225dce366fd8f7
 }
 
 h3{
