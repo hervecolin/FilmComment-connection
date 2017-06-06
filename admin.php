@@ -10,10 +10,6 @@
       <title>Administrateur</title>
 </head>
 <body>
-
-  <br/><!--un peu chavalier ces br++ !-->
-  <br/>
-  <br/>
   <br/>
      <a class ="accueil" href="index_film.php" >Accueil</a><br/> <!--retour accueil -->
      <a class="moderateur"href="moderateur.php" >Modérateur</a><!--check modérateur-->

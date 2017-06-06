@@ -33,8 +33,9 @@
     	  echo '<img class="poster_2" src="img/posters/'.$movie['poster'].' ">';
         echo	'<p class="plot">' .'Synopsis : '.$movie['plot'] .'</p>' ; //encore concat !!
     	  echo	'<p class="cast">'. ' Actors : '.$movie['cast'] .'</p>' ;   //idem
-    	  echo	'<p class="rating">'.'Note : ' .$movie['rating'].' - '.' Votes : '.$movie['votes'].'</p>'; // spécial concat
+    	  echo	'<p class="rating">'.'Note : ' .$movie['rating'].'</p>'; // spécial concat
     }
+    
   }
  ?>
  </main>

@@ -51,9 +51,9 @@ catch (PDOException $e){                              //mon exception avec rollb
    echo "<tr><th>Password</th><th>Nom</th><th>Prénom</th><th>Adresse</th><th>Email</th></tr>"; //le tableau pour récupérer mes données
 
    while ($r=$resultat->fetch(PDO::FETCH_ASSOC)){
-   //mon while qui recherche mes index de table et affiche mes nom, prenom, ville avec fletch_ASSOC pour un tableau  associatif ! $r pour créer une nouvelle variable sinon boucle infinie de $resultat !
+   //mon while qui recherche mes index de table et affiche mes nom, prenom... avec fletch_ASSOC pour un tableau  associatif ! $r pour créer une nouvelle variable sinon boucle infinie de $resultat !
     echo "<tr><td>". $r['password']."</td><td>".$r['nom']."</td><td>".$r['prenom']."</td><td>".$r['adresse']."</td><td>".$r['email']
-    ."</td></tr>";   //je demande d'afficher nom,prenom,  ville et dtad'inscription ds un tableau
+    ."</td></tr>";
    }
     echo "</table>";
 
@@ -62,7 +62,8 @@ catch (PDOException $e){                              //mon exception avec rollb
       echo'Test de validation formulaire ok le programme continue...'."<br/>";
     }
     else{
-       echo'formulaire invalide : vous devez remplir le formulaire !';
+       //echo'formulaire invalide : vous devez remplir le formulaire !';
+        header ("location: inscription.php ?Error=Veuillez renseigner le formulaire !");
     }
 
     if (isset($_POST['password']) AND $_POST['password']=="azteca1")

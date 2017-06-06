@@ -20,7 +20,7 @@
   	  <a href="https://www.youtube.com/?hl=fr&gl=FR"><img class="you" src ="img/you.jpg"/></a>
   </div>
 <?php
-include("navigateur.php");// include nav
+include("navigateur.php");     // include navigateur: accueil, serie, forum
 ?>
 <br/>
 <br/>
@@ -35,6 +35,7 @@ include("navigateur.php");// include nav
       <img src="img/photo_13.jpg" />
       <img src="img/photo_15	.jpg" />
       <img src="img/photo_14.jpg" />
+
   </div>
 </body>
 </html>
