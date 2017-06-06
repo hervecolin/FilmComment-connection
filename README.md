@@ -1,7 +1,7 @@
 /*
 Theme Name: Interface fishblock (série TV)
 Theme URI: https://exo_film
-Author: H.COLIN
+Author:A.MELLERIN,M.BAURIGAULT, I.ZOURE, A.GOUJEON H.COLIN
 Author URI: https://H.COLIN
 Use it to make something cool, have fun, and share what you've learned with others.
 */
@@ -25,13 +25,13 @@ Fonctionnalités :
 
 ###Page administrateur
 
-###Banque de 300 posters et synopsis de films
+###Banque de 300 posters et synopsis de séries
 
 ###1 page d'inscription : test.php (formulaire relié à une db Mysql) -> accès tableau html commanter ligne 83 -> header(location) dans test.php
 
-###1 page de notificatio: cible.php (formulaire relié à une db Mysql) -> accès tableau html commanter ligne 69 -> header(location) dans cible.php
+###1 page de notification: cible.php (formulaire relié à une db Mysql) -> accès tableau html commanter ligne 69 -> header(location) dans cible.php
 
 ### liaison à une db MySql name = fishblock
 
-### 2 tables : users( champs : id, password, nom, prenom, adresse, email) & commentaire (id, commentaire, note, speudo, proposer)
-"# FilmConnection" 
+### 2 tables : users( champs : id, password, nom, prenom, adresse, email) & commentaire (id, commentaire, note, pseudo, proposer)
+"# FilmConnection"
