@@ -31,7 +31,7 @@ Fonctionnalités :
 
 ###Banque de 300 posters et synopsis de séries
 
-###retour accueil des pages: cliquer sur le logo (IMIE) pour revenir à l' accueil
+###retour accueil des pages: cliquer sur le logo (IMIE) pour revenir à l' accueil (pseudo fil d'Ariane)
 
 ###1 page d'inscription : test.php (formulaire relié à une db Mysql) -> accès tableau html commanter ligne 83 -> header(location) dans test.php
 
