@@ -33,9 +33,9 @@ Fonctionnalités :
 
 ###retour accueil des pages: cliquer sur le logo (IMIE) pour revenir à l' accueil (pseudo fil d'Ariane)
 
-###1 page d'inscription : test.php (formulaire relié à une db Mysql) -> accès tableau html commanter ligne 83 -> header(location) dans test.php
+###1 page d'inscription : test.php (formulaire relié à une db Mysql) -> accès tableau html commenter ligne 83 -> header(location) dans test.php
 
-###1 page de notification: cible.php (formulaire relié à une db Mysql) -> accès tableau html commanter ligne 69 -> header(location) dans cible.php
+###1 page de notification: cible.php (formulaire relié à une db Mysql) -> accès tableau html commenter ligne 69 -> header(location) dans cible.php
 
 ### liaison à une db MySql name = fishblock
 
