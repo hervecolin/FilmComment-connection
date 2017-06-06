@@ -19,6 +19,8 @@
   <div class="actu">
     <p>News </p>   <!--mon titre-->
    </div>
+ </br>
+ </br>
    <div class="movies"><!--ma class movies -->
       <form>    <!-- mon form de recherche sans post il est en get par défault-->
        <input type="search" name="q" placeholder ="kung fu, ect..."/>

@@ -2,7 +2,6 @@ h1{                                             /*mon css*/
 	color:red;
 	font-family:Equal Sans Demo;
 	font-size: 60px;
-	font-size: 40px;
 	position:absolute;
 	left:300px;
 }
@@ -21,10 +20,10 @@ h3{
 	font-size:40px;
 }
 p{
-	color:black;
+	color:sylver;
 	position:absolute;
 	bottom:250px;
-	left:60px;
+	left:160px;
 	font-family:Equal Sans Demo; /* case de l'IMIE*/
 	font-size:40px;
 }
@@ -53,8 +52,9 @@ body{                        /*mon body*/
 	color:white;
 }
 .movies img{               /*select warning poster !*/
-	width:190px;
+	width:180px;
 	height:150px;
+	margin: 3px;
 }
 .poster_2{
 	width:200px;
@@ -203,6 +203,9 @@ body a{                          /* Select pour none d'accueil un peu tordu !!*/
 .accueil{                                     /*mon css accueil*/
 	background-color:grey;
 	padding: 5px;
+	position: absolute;
+	top:100px;
+	left: 10px;
 }
 .wall{                       /*mon css wall*/
 	background-color:grey;
@@ -258,18 +261,21 @@ body a{                          /* Select pour none d'accueil un peu tordu !!*/
 .footer{                          /*mon css footer reel*/
 	position:absolute;
 	bottom:2px;
-	left:550px;
+	left:600px;
 	color:white;
 }
 .actu{                         /*mon css titre actu*/
 	position:absolute;
 	top:280px;
-	left:600px;
+	left:580px;
 	color:grey;
 }
 .moderateur{
 	background-color:grey;
 	text-align: center;
+	position: absolute;
+	top:80px;
+	left: 10px;
 }
 .mod{
 	position:absolute;

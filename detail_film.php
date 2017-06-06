@@ -8,8 +8,8 @@
 </head>
 
 <body>
-  <a href="index_film.php" class="return" >Accueil</a>
-  <a href ="https://twitter.com/EcoleIMIE"> <img src = "img/imgres.png"  class="img/logo"/></a> <!--lien vers forum !!-->
+  <!-- <a href="index_film.php" class="return" >Accueil</a> -->
+  <a href ="index_film.php"> <img src = "img/imgres.png"  class="img/logo"/></a> <!--lien vers forum !!-->
 
   <div class="reseau">                  <!-- div réseau sociaux-->
           <a href="https://twitter.com/login"><img class="twiter" src ="img/logo_twiter.jpg"/></a>
@@ -35,7 +35,7 @@
     	  echo	'<p class="cast">'. ' Actors : '.$movie['cast'] .'</p>' ;   //idem
     	  echo	'<p class="rating">'.'Note : ' .$movie['rating'].'</p>'; // spécial concat
     }
-    
+
   }
  ?>
  </main>

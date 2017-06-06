@@ -11,10 +11,6 @@
 </head>
 <body>
 
-  <?php
-  include("header.php"); //include header !!
-  ?>
-  
   <br/>
   <br/>
      <a class ="accueil" href="index_film.php" >Accueil</a><br/> <!--retour accueil -->
@@ -28,8 +24,8 @@
   <div class="message">
     <?php
     include("footer_f.php");          // include footer reel!!
-    // $message=$_POST['message'];    //affecte ma variable du formulaire et je la lis !
-    // echo $message;
+    //$message=$_POST['message'];    //affecte ma variable du formulaire et je la lis !
+    //echo $message;
     // include("test.php");
     ?>
   </div>

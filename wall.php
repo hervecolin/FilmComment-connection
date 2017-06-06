@@ -10,7 +10,7 @@
 <body>
 <h1> My Wall : FishBlock Connection !</h1>
 <br/>
-    <a href ="https://twitter.com/EcoleIMIE"> <img src = "img/imgres.png"  class="logo"/></a> <!--forum-->
+    <a href ="index_film.php"> <img src = "img/imgres.png"  class="logo"/></a> <!--forum-->
   <div class="reseau">   <!--toujours le réseau social ! connecting people -->
       <a href="https://twitter.com/login"><img class="twiter" src ="img/logo_twiter.jpg"/></a>
   		<a href="https://fr-fr.facebook.com/login/"><img class="face" src ="img/logo_face.png"/></a>
