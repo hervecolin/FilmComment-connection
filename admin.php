@@ -10,6 +10,15 @@
       <title>Administrateur</title>
 </head>
 <body>
+<<<<<<< HEAD
+=======
+  <?php
+  include("header.php"); //include header !!
+  ?>
+  <br/><!--un peu chavalier ces br++ !-->
+  <br/>
+  <br/>
+>>>>>>> 5961348fe8bdea3501bcbf67dd225dce366fd8f7
   <br/>
      <a class ="accueil" href="index_film.php" >Accueil</a><br/> <!--retour accueil -->
      <a class="moderateur"href="moderateur.php" >Modérateur</a><!--check modérateur-->

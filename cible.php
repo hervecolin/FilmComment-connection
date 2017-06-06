@@ -66,7 +66,11 @@
       echo "<tr><td>". $r['commentaire']."</td><td>".$r['note']."</td><td>".$r['speudo']."</td><td>".$r['proposer']."</td></tr>";   //je demande d'afficher nom,prenom,  ville et dtad'inscription ds un tableau
      }
      echo "</table>";                          //mon echo fin de tableau
+<<<<<<< HEAD
     header("location: wall.php ");
+=======
+    //  header("location: wall.php ");
+>>>>>>> 5961348fe8bdea3501bcbf67dd225dce366fd8f7
 
 
   ?>

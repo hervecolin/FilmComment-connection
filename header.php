@@ -9,10 +9,17 @@
 </head>
 <footer>
   <h1> fishblock Connection !</h1>    <!--mon title-->
+<<<<<<< HEAD
     <h2>Selection de Séries : Actu, diffusion, photos, acteurs...</h2>
        <a href ="https://twitter.com/EcoleIMIE"> <img src = "img/imgres.png"  class="logo"/></a> <!--idem pour le forum-->
        <a name="inscription" class ="inscription" href="inscription.php" >Inscrivez vous vite !</a>
        <a name ="sup_ad" class="sup_ad" href ="inscription.php" >Administrateur</a>
+=======
+    <h2>Selection de films : Actu, diffusion, photos, acteurs...</h2>
+       <a href ="https://twitter.com/EcoleIMIE"> <img src = "img/imgres.png"  class="logo"/></a> <!--idem pour le forum-->
+       <a name="inscription" class ="inscription" href="inscription.php" >Inscrivez vous vite !</a>
+       <a name ="sup_ad" class="sup_ad" href ="admin.php" >Administrateur</a>
+>>>>>>> 5961348fe8bdea3501bcbf67dd225dce366fd8f7
        <a name="deconnection" class ="deconnection" href="" >Déconnection</a>
   <div class="reseau">            <!--ma div réseau-->
      <a href="https://twitter.com/login"><img class="twiter" src ="img/logo_twiter.jpg"/></a>

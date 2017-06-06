@@ -52,7 +52,11 @@ session_start();       //initialisation de ma session
    </div>
 		<br/>
 <?php
+<<<<<<< HEAD
     include("footer_f.php");
+=======
+    include("footer_f.php");             
+>>>>>>> 5961348fe8bdea3501bcbf67dd225dce366fd8f7
 ?>
 
 </body>

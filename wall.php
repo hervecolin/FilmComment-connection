@@ -35,7 +35,10 @@ include("navigateur.php");     // include navigateur: accueil, serie, forum
       <img src="img/photo_13.jpg" />
       <img src="img/photo_15	.jpg" />
       <img src="img/photo_14.jpg" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5961348fe8bdea3501bcbf67dd225dce366fd8f7
   </div>
 </body>
 </html>
